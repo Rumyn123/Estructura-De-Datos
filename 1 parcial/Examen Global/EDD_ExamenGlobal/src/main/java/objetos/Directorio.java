@@ -33,6 +33,8 @@ public class Directorio {
         //Columna 0 = Apellido 
         //Columna 1 = Nombre
         //Columna 2 = Numero Telefónico
+        
+        Utilidades.msg("Directorio con exito");
     }
     
     public void agregarRegistro(String apellido, String nombre, String numeroTelefonico){
@@ -41,6 +43,7 @@ public class Directorio {
             this.directorio[numInicial][1] = nombre;
             this.directorio[numInicial][2] = numeroTelefonico;
             numInicial ++;
+            Utilidades.msg("Registro añadido con exito");
         }
         else {
             Utilidades.msg("No puedes agregar mas registros", "Actualmente haz alcanzado el limite de registros permitidos");

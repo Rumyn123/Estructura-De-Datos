@@ -20,4 +20,7 @@ public class Utilidades {
         JOptionPane.showMessageDialog(null, mensaje, titulo, JOptionPane.INFORMATION_MESSAGE);
     }
 
+    public static String leer(String pregunta){
+        return JOptionPane.showInputDialog(pregunta);
+    } 
 }
