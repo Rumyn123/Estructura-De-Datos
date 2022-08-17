@@ -8,6 +8,6 @@ package programa;
  *
  * @author Rumyn
  */
-public class Biblioteca {
+public class LecturasInteresantes {
     
 }
