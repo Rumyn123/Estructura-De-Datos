@@ -4,6 +4,8 @@
  */
 package programa;
 
+import metodos.Utilidades;
+
 /**
  *
  * @author Rumyn
@@ -14,7 +16,7 @@ public class EDD_ExamenGlobal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Utilidades.msg("prueba");
     }
     
 }
