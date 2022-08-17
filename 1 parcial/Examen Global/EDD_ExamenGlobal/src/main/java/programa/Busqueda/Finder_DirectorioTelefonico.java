@@ -11,4 +11,8 @@ package programa.Busqueda;
  */
 public class Finder_DirectorioTelefonico {
     
+    public Finder_DirectorioTelefonico(){
+        
+    }
+    
 }
