@@ -10,4 +10,9 @@ package programa.Ordenamiento;
  */
 public class Sorter_LecturasInteresantes {
     
+    public Sorter_LecturasInteresantes(){
+        
+    }
+    
+    
 }
