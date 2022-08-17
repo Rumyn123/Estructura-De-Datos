@@ -11,4 +11,23 @@ package programa.Busqueda;
  */
 public class Finder_DirectorioTelefonico {
     
+    public Finder_DirectorioTelefonico(){
+        
+    }
+    
+    public void iniciarFinderDirectorio(){
+        boolean repetir = true;
+        do{
+            imprimirMenu();
+            
+            
+            
+        } while(repetir);
+        
+    }
+    
+    private void imprimirMenu(){
+        
+    }
+    
 }
