@@ -35,6 +35,7 @@ public class Menu {
                 case "Directorio telefonico":
                     Utilidades.msg("Elegiste el directorio telefonico");
                     Finder_DirectorioTelefonico finder = new Finder_DirectorioTelefonico();
+                    finder.iniciarFinderDirectorio();
                     correcto = false;
                     break;
                     
