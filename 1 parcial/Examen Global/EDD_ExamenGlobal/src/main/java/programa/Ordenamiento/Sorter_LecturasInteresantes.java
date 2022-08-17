@@ -1,6 +1,10 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+1. La biblioteca Lecturas Interesantes desea administrar sus materiales mediante 
+un programa de computador y ha solicitado que se le diseñe un algoritmo para este propósito. 
+Se desea almacenar los datos de los libros, como son: materia, titulo, editorial, autor y año. 
+Se desea ingresar todos los libros y poder adicionar las nuevas adquisiciones en 
+la medida en que se hacen; hacer consultas con base en autor, título o ISBN, de 
+igual manera generar listados ordenados por autor o por título.
  */
 package programa.Ordenamiento;
 
