@@ -24,33 +24,39 @@ public class Menu {
     
     
     public void iniciarMenu(){
-        boolean correcto;
-        String opc;
+        boolean terminar = false;
+        int opc;
          
         do{
-            opc = Utilidades.leer("Elige que programa iniciar: \nDirectorio telefonico \nAdministrador de Biblioteca ");
+            opc = Integer.parseInt(Utilidades.leer("Elige que programa iniciar: \n"
+                                                 + "1- Directorio telefonico \n"
+                                                 + "2- Administrador de Biblioteca\n"
+                                                 + "3- Salir ")) ;
             
             switch(opc){
                 
-                case "Directorio telefonico":
+                case 1:
                     Utilidades.msg("Elegiste el directorio telefonico");
                     Finder_DirectorioTelefonico finder = new Finder_DirectorioTelefonico();
                     finder.iniciarFinderDirectorio();
-                    correcto = false;
+                    terminar = false;
                     break;
                     
-                case "Administrador de Biblioteca":
+                case 2:
                     Utilidades.msg("Elegiste el Administrador de Bibliotecas");
                     Sorter_LecturasInteresantes sorter = new Sorter_LecturasInteresantes();
-                    correcto = false;
+                    sorter.iniciarSorterLecturas();
+                    terminar = false;
                     break;
-                
+                case 3:
+                    Utilidades.msg("Ten un lindo dia :D");
+                    terminar = true;
+                    break;
                 default:
-                    Utilidades.msg("Escriba correctamente el nombre");
-                    correcto = true;
+                    Utilidades.msg("Escriba una opcion correcta del 1 al 3");
 
             }
-        }while (correcto);
+        }while (terminar);
     }     
 }
 
