@@ -8,8 +8,8 @@ Este repositorio contiene los proyectos de todo el semestre
 
 ```bash
 
-* Proyecto 1
-* Proyecto 2
+* Diagnóstico
+* ExamenGlobal
 * Proyecto 3
 
 ```
